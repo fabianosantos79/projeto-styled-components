@@ -29,7 +29,7 @@ const Logo = styled.img`
   width: 50px;
 `
 
-const Cabecalho = () => {
+export const Cabecalho = () => {
   return (
     <StyledHeader>
       <Logo src={bank_logo} alt="Logo Smart Bank" />
